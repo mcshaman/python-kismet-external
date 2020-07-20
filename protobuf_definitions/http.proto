@@ -71,7 +71,7 @@ message HttpResponse {
     // Headers being sent, if any
     repeated SubHttpHeader header_content = 2;
     // Content being sent, if any
-    optional bytes content = 3;
+    optional string content = 3;
     // Result code, if we're concluding this connection
     optional uint32 resultcode = 4;
     // Is this the end of this connection?
